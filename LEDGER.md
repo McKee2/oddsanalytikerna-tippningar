@@ -13,3 +13,12 @@ den här sammanfattningen är genererad.
 
 _Utfall (1X2) härleds ur vårt tippade målresultat; exakt resultat redovisas separat.
 Ordinarie tid i gruppspelet. "⏳" = ej spelad ännu._
+
+## Övriga frusna tippningar
+
+Bredare prediktioner (t.ex. avancemang) som inte är enskilda matcher. Facit fylls i
+när frågan avgjorts — ingen automatisk avläsning.
+
+| Fråga | Vår tippning (svar · ★confidence · frusen) | Facit |
+| --- | --- | --- |
+| [Går Sverige vidare från gruppspelet?](predictions/gar-sverige-vidare.ts) | Ja — Sverige vidare · ★3 · 5 juni 2026 | Ej avgjort ännu |
