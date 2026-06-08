@@ -5,14 +5,16 @@ i efterhand — bara facit-kolumnen fylls i när matchen spelats. Missar visas l
 tydligt som träffar. Det riktiga beviset är filerna i [`previews/`](previews/) —
 den här sammanfattningen är genererad.
 
-**Inga matcher spelade ännu.** Publicerade tippningar: 1. Ännu ej spelade: 1.
+**Inga matcher avgjorda ännu.** Publicerade tippningar: 2. Ännu ej spelade: 2.
 
-| Match | När (svensk tid) | Vår tippning (1X2 · resultat · ★confidence · frusen) | Facit | Resultat |
-| --- | --- | --- | --- | --- |
-| [Tunisien–Sverige](previews/tunisien-vs-sverige.ts) | mån 15 juni 2026, 04:00 | Sverige (bortaseger) · 1–2 · ★3 · 7 juni 2026 | Ej spelad ännu | ⏳ |
+| Match | Marknad | När (svensk tid) | Vår tippning (pick · odds · ★confidence · frusen) | Facit | Utfall |
+| --- | --- | --- | --- | --- | --- |
+| [Mexiko–Sydafrika](previews/mexiko-vs-sydafrika.ts) | Mål över/under 2,5 | tors 11 juni 2026, 21:00 | Under 2,5 mål @ 1,77 · ★3 · 8 juni 2026 · modell Mexiko 1 – Sydafrika 0 | Ej spelad ännu | ⏳ |
+| [Sverige–Tunisien](previews/tunisien-vs-sverige.ts) | Matchvinnare (1X2) | mån 15 juni 2026, 04:00 | Sverige · ★3 · 7 juni 2026 · modell Sverige 2 – Tunisien 1 | Ej spelad ännu | ⏳ |
 
-_Utfall (1X2) härleds ur vårt tippade målresultat; exakt resultat redovisas separat.
-Ordinarie tid i gruppspelet. "⏳" = ej spelad ännu._
+_Varje pick graderas mot sin egen marknad (1X2 / mål över/under / handikapp / båda lag mål) —
+inget tvingas in som 1X2. Exakt resultat redovisas separat för 1X2. Ordinarie tid i gruppspelet.
+"⏳" = ej spelad ännu, "➖" = push._
 
 ## Övriga frusna tippningar
 

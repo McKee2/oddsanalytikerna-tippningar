@@ -2,12 +2,20 @@
  * tunisien-vs-sverige.ts — match-preview (VM 2026, Grupp F).
  * src/data/vm2026/previews/tunisien-vs-sverige.ts
  *
- * Slug = matchradens slug i tournament_matches (Tunisien hemma, Sverige borta,
- * 15 juni 2026, Estadio BBVA Monterrey). Previewn visas på matchens kanoniska
- * URL: /vm-2026/matcher/tunisien-vs-sverige (visningstitel Sverige-först).
+ * REORIENTERAD 2026-06-08 efter hemma/borta-rättningen i DB: matchraden är nu
+ * Sverige HEMMA, Tunisien BORTA. Previewns lag1/lag2 (+ slugs, form, spelare,
+ * modell-resultat) följer matchradens hemma/borta per typkontraktet — det är
+ * det som driver H1, flaggor och 1X2-graderingen.
  *
- * Fakta (datum/arena/stad) hämtas från matchraden; bara tv_kanal anges här
- * (kolumnen finns ej i DB). Innehållet nedan är skarpt och faktakollat.
+ * Slugen "tunisien-vs-sverige" BEHÅLLS medvetet (inga redirects) och speglar
+ * därför inte längre hemma-först-ordningen. Visningstitel/H1 byggs ur
+ * home_name/away_name (Sverige–Tunisien), inte ur slugen.
+ *
+ * OBS samdeploy: den här ändringen hör ihop med DB-flippen — modell-resultatet
+ * renderas hemma-först (match.home_name först) och är korrekt FÖRST när
+ * matchraden flippats. Deploya tillsammans.
+ *
+ * Fakta (datum/arena/stad) hämtas från matchraden; bara tv_kanal anges här.
  */
 
 import type { MatchPreview } from "./types";
@@ -15,35 +23,39 @@ import type { MatchPreview } from "./types";
 export const tunisienVsSverige: MatchPreview = {
   slug: "tunisien-vs-sverige",
 
-  lag1: "Tunisien",
-  lag2: "Sverige",
-  lag1_slug: "tunisien",
-  lag2_slug: "sverige",
+  lag1: "Sverige",
+  lag2: "Tunisien",
+  lag1_slug: "sverige",
+  lag2_slug: "tunisien",
   grupp: "F",
 
   tv_kanal: "SVT",
 
   // ── Fryst tippning (frusen 2026-06-07 — ändras aldrig i efterhand) ──
-  tippning_1x2: "Sverige (bortaseger)",
-  tippning_malresultat: "1–2",
+  // 1X2-marknad: vi tippar svensk seger. tippning_malresultat är home-first
+  // (Sverige först, samma ordning som home_score–away_score): "2–1" = Sverige 2–1.
+  // Pick/market/confidence/frysdatum är OFÖRÄNDRADE — bara orienteringen vänd.
+  market: "1X2",
+  pick: "Sverige",
   confidence: 3,
   tippning_frusen_at: "2026-06-07",
+  tippning_malresultat: "2–1",
 
   form_lag1:
-    "Defensivt kvalfenomen: vann CAF-gruppen med 28 poäng och blev första laget någonsin att kvala in utan att släppa in ett enda mål (0 insläppta, 22–0 i målskillnad) — om än mot svagt motstånd. Ny förbundskapten i Sabri Lamouchi, inhoppad i januari med bara två träningsmatcher i bagaget (0–0 mot Kanada, 1–0 mot Haiti). Slog Frankrike i sista gruppmatchen i Qatar 2022, men har aldrig tagit sig förbi ett gruppspel på sex försök.",
-  form_lag2:
     "Tog sig hit den dramatiska vägen via playoff (3–1 mot Ukraina med Gyökeres-hattrick, 3–2 mot Polen). Genrepen var blandade — förlust mot Norge och 2–2 mot Grekland, båda utan vilade Gyökeres. Trupp i generationsskifte under Potter, med en av turneringens vassaste anfallsduon men ett mittförsvar utan elitstoppare. Emil Holm missar VM (muskelskada) och ersattes av Herman Johansson; Hugo Larsson petades överraskande.",
+  form_lag2:
+    "Defensivt kvalfenomen: vann CAF-gruppen med 28 poäng och blev första laget någonsin att kvala in utan att släppa in ett enda mål (0 insläppta, 22–0 i målskillnad) — om än mot svagt motstånd. Ny förbundskapten i Sabri Lamouchi, inhoppad i januari med bara två träningsmatcher i bagaget (0–0 mot Kanada, 1–0 mot Haiti). Slog Frankrike i sista gruppmatchen i Qatar 2022, men har aldrig tagit sig förbi ett gruppspel på sex försök.",
 
   nyckelduell:
     "Sveriges anfall mot Tunisiens block. Isak och Gyökeres är två av VM:s farligaste anfallare — men Tunisien är byggt för att frustrera, med Skhiri som skärmar framför en backlinje som inte släppte in något i kvalet. Frågan blir om Sverige kan låsa upp ett lågt block tidigt och slippa en nervös premiär. Och åt andra hållet: Sveriges sköra försvar mot Tunisiens kontringar och fasta situationer.",
 
   spelare_lag1: [
-    { namn: "Hannibal Mejbri", motivering: "Lagets X-factor och energiknippe på mittfältet (Burnley, andra raka VM)." },
-    { namn: "Ellyes Skhiri", motivering: "Kapten och ankare med CL-rutin från Frankfurt — den som håller ihop laget." },
-  ],
-  spelare_lag2: [
     { namn: "Viktor Gyökeres", motivering: "I formen av sitt liv, hattrick-hjälte i playoffet; kan avgöra på egen hand." },
     { namn: "Alexander Isak", motivering: "Kreativ och klinisk — den som öppnar upp de tätaste försvaren." },
+  ],
+  spelare_lag2: [
+    { namn: "Hannibal Mejbri", motivering: "Lagets X-factor och energiknippe på mittfältet (Burnley, andra raka VM)." },
+    { namn: "Ellyes Skhiri", motivering: "Kapten och ankare med CL-rutin från Frankfurt — den som håller ihop laget." },
   ],
 
   h2h:
@@ -57,11 +69,11 @@ export const tunisienVsSverige: MatchPreview = {
 
   faq: [
     {
-      q: "Vem vinner Tunisien–Sverige?",
+      q: "Vem vinner Sverige–Tunisien?",
       a: "Vi tippar en svensk seger, 2–1, men med medel-confidence — Tunisien släppte inte in ett enda mål i kvalet och är svårforcerade.",
     },
     {
-      q: "Vilken kanal visar Tunisien–Sverige?",
+      q: "Vilken kanal visar Sverige–Tunisien?",
       a: "Matchen sänds på SVT (linjärt och SVT Play).",
     },
     {
@@ -69,7 +81,7 @@ export const tunisienVsSverige: MatchPreview = {
       a: "Måndag 15 juni 2026, 04:00 svensk tid, på Estadio BBVA i Monterrey, Mexiko.",
     },
     {
-      q: "Vad är oddset på Tunisien–Sverige?",
+      q: "Vad är oddset på Sverige–Tunisien?",
       a: "Sverige är favorit runt 1.90, mot oavgjort kring 3.30 och Tunisien kring 4.00. Vi nämner odds analytiskt och länkar inte till spelbolag.",
     },
   ],

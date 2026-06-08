@@ -32,6 +32,17 @@ export interface PreviewFaqItem {
 /** 1 = mycket låg, 5 = mycket hög. Default-rekommendation: 3 (medvetet medium). */
 export type Confidence = 1 | 2 | 3 | 4 | 5;
 
+/**
+ * Marknaden den frysta picken gäller. Styr både etiketten i verdict-blocket
+ * och hur picken graderas mot facit (se previews/grade.ts — en källa, både
+ * sajtens FacitSection och scripts/sync-tippningar.mjs delar samma logik).
+ *   • 1X2      — matchvinnare (1/X/2). pick = lagnamn eller "Oavgjort".
+ *   • totals   — mål över/under. pick = "Under 2,5 mål" m.m., line = 2.5.
+ *   • handicap — europeiskt/asiatiskt handikapp. pick = "Japan +0,5", line = 0.5.
+ *   • btts     — båda lag gör mål. pick = "BTTS Ja" / "BTTS Nej".
+ */
+export type PredictionMarket = "1X2" | "totals" | "handicap" | "btts";
+
 export interface MatchPreview {
   /**
    * MÅSTE matcha tournament_matches.slug — det är route-nyckeln och garanterar
@@ -64,13 +75,28 @@ export interface MatchPreview {
   domare?: string;
 
   /* ── Fryst tippning (sätts en gång, ändras aldrig i efterhand) ── */
-  /** Vårt 1X2-val i klartext, t.ex. "Sverige (bortaseger)". */
-  tippning_1x2: string;
-  /** Tippat målresultat ur hemmalagets perspektiv, t.ex. "1–2". */
-  tippning_malresultat: string;
+  /** Vilken marknad picken gäller — styr etikett + gradering. */
+  market: PredictionMarket;
+  /**
+   * Picken i klartext. Format beror på market:
+   *   1X2 → "Sverige" / "Oavgjort" · totals → "Under 2,5 mål"
+   *   handicap → "Japan +0,5" · btts → "BTTS Ja"
+   * Detta är det som GRADERAS mot facit (se grade.ts).
+   */
+  pick: string;
+  /** Linje för totals/handicap (2.5, +0.5, -1). Utelämnas för 1X2/btts. */
+  line?: number;
+  /** Oddset vid frys, t.ex. 1.77. Visas synligt i verdict-blocket. */
+  odds?: number;
   confidence: Confidence;
   /** ISO-datum då tippningen frystes. Visas som "Tippning frusen {datum}". */
   tippning_frusen_at: string;
+  /**
+   * VALFRITT modell-lutande slutresultat (hemmalagets perspektiv, t.ex. "1–2"),
+   * rent kontext. Detta är INTE den gradade picken för icke-1X2-marknader. För
+   * 1X2 används det som exakt-resultat-bonus när det är satt.
+   */
+  tippning_malresultat?: string;
 
   /* ── Editoriell analys (original) ── */
   /** Formläge lag1 — kondenserat ur lag-analysen. */
