@@ -97,6 +97,14 @@ export interface MatchPreview {
    * 1X2 används det som exakt-resultat-bonus när det är satt.
    */
   tippning_malresultat?: string;
+  /**
+   * VALFRITT verbatim "Vår tippning"-resonemang — renderas som prosa under
+   * pick-kortet i verdict-blocket (PreviewVerdict, sektion 2). Ett element per
+   * stycke. Bär den editoriella motiveringen som inte ryms i de strukturerade
+   * pick-fälten (varför picken, risk, odds-/ansvarsnot). Saknas → inget
+   * prosablock visas (äldre previews oförändrade).
+   */
+  verdict?: string[];
 
   /* ── Editoriell analys (original) ── */
   /** Formläge lag1 — kondenserat ur lag-analysen. */
