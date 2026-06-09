@@ -35,6 +35,7 @@ export const kanadaVsBosnienHercegovina: MatchPreview = {
   pick: "Under 2,5 mål",
   line: 2.5,
   odds: 1.68,
+  odds_source: "ATG",
   confidence: 3,
   tippning_frusen_at: "2026-06-09",
   // home-first; Kanada (hemma) 1 – Bosnien 0. Rent kontext för totals.
@@ -44,7 +45,6 @@ export const kanadaVsBosnienHercegovina: MatchPreview = {
     "Varför inte hemmavinsten? Kanada är värdnation och favorit (~1,78), men kapten Alphonso Davies — lagets bästa spelare — är hamstring-skadad och trolig utanför premiären. På ett fullt favoritodds utan sin stjärna finns inget value i \"Kanada ML\". Det vore favoritskap, inte matematik.",
     "Vår tippning: Under 2,5 mål. Det är en VM-premiär där båda lagens nyckelspelare är skadetvivelaktiga — Davies (hamstring) för Kanada, 40-årige Edin Džeko (axel) för Bosnien. Premiärer brukar bli avvaktande, Bosnien är defensivt lagda (0–0 mot Nordmakedonien senast, kvalet vunnet på straffar), och Kanadas målproduktion har varit ojämn. Allt pekar mot få mål.",
     "Risk: hemmaenergin och Jonathan David kan tvinga fram ett tidigt mål, och fasta situationer (Eustáquios hörnor, Džekos längd om han spelar) är en målväg. Därför confidence 3/5.",
-    "Odds: ATG, kollade 9 juni. Affiliatefritt — vi länkar inte till spelbolag. 18+. Spela ansvarsfullt; stöd finns hos Stödlinjen 020-81 91 00.",
   ],
 
   form_lag1:

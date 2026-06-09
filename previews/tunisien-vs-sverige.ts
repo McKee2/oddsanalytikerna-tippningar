@@ -65,7 +65,7 @@ export const tunisienVsSverige: MatchPreview = {
     "Sverige går in som favorit (runt 1.90) med klart bättre individuell kvalitet — men inte överväldigande sådan. Tunisiens nollade kvalförsvar och Lamouchis kompakta 4-2-3-1 gör det här till en tålamodsmatch, och premiärer brukar vara avvaktande. Samtidigt gör Sveriges sköra mittförsvar en hållen nolla osannolik. Vi tror att den svenska anfallskvaliteten till slut avgör, men att Tunisien hugger tillbaka en gång: 2–1 Sverige, medel-confidence (3 av 5). För Sverige är det en måste-vinna-match om gruppspelet inte ska bli tungt direkt.",
 
   spelvarde:
-    "Den raka svenska segern är snarare rätt prissatt än ett fynd — Tunisien är stabilare och Sverige skörare bak än 1.90 antyder. Mer intressant analytiskt är att ett disciplinerat Tunisien plus ett läckande svenskt försvar pekar mot en tätare, mer poängdelad match än oddsen signalerar; målmarknader och \"Tunisien gör mål\" är värda en närmare titt. Affiliatefritt — vi länkar inte till spelbolag.",
+    "Den raka svenska segern är snarare rätt prissatt än ett fynd — Tunisien är stabilare och Sverige skörare bak än 1.90 antyder. Mer intressant analytiskt är att ett disciplinerat Tunisien plus ett läckande svenskt försvar pekar mot en tätare, mer poängdelad match än oddsen signalerar; målmarknader och \"Tunisien gör mål\" är värda en närmare titt.",
 
   faq: [
     {

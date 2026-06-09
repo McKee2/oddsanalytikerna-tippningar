@@ -88,6 +88,13 @@ export interface MatchPreview {
   line?: number;
   /** Oddset vid frys, t.ex. 1.77. Visas synligt i verdict-blocket. */
   odds?: number;
+  /**
+   * Källan oddset noterades hos, t.ex. "ATG" / "Bet365/FanDuel". Driver den
+   * delade disclaimern (PreviewTransparency): är den satt vävs odds-källe-
+   * meningen in, saknas den utelämnas meningen. Hårdkoda ALDRIG källan i den
+   * delade texten — registrera den per preview här (källor skiljer sig åt).
+   */
+  odds_source?: string;
   confidence: Confidence;
   /** ISO-datum då tippningen frystes. Visas som "Tippning frusen {datum}". */
   tippning_frusen_at: string;

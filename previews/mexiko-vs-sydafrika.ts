@@ -37,6 +37,7 @@ export const mexikoVsSydafrika: MatchPreview = {
   pick: "Under 2,5 mål",
   line: 2.5,
   odds: 1.77,
+  odds_source: "Bet365/FanDuel",
   confidence: 3,
   tippning_frusen_at: "2026-06-08",
   tippning_malresultat: "1–0",
@@ -65,7 +66,7 @@ export const mexikoVsSydafrika: MatchPreview = {
     "Mexiko vinner sannolikt — ~68% enligt modellerna, hemma på Azteca med höjd och utsåld publik. Men vid ~1,45 är segern exakt rätt prissatt: inget value. Då låter vi matematiken styra och spelar mönstret. VM-öppnare är avvaktande, Sydafrika står kompakt och kontrar, och kommer från havsnivå rakt in i 2 240 m höjd som sänker tempot över 90 min. Mexiko har kvaliteten att vinna metodiskt utan att öppna upp. Summan: en kontrollerad match snarare än målkalas. Under 2,5 fångar det oavsett vem som vinner.",
 
   spelvarde:
-    "Den raka Mexiko-segern är rätt prissatt (~1,45) — favoritskapet är korrekt, men där finns inget value. Vårt spel ligger i stället på Under 2,5 mål (~1,77 hos Bet365/FanDuel, kollat 8 juni 2026): en avvaktande VM-öppnare, ett kompakt Sydafrika och Aztecas 2 240 meters höjd som sänker tempot pekar mot en tätare match än målmarknaden antyder. Priserna rör sig — kolla live. Affiliatefritt: vi länkar inte till spelbolag. Spela ansvarsfullt — Stödlinjen 020-81 91 00.",
+    "Den raka Mexiko-segern är rätt prissatt (~1,45) — favoritskapet är korrekt, men där finns inget value. Vårt spel ligger i stället på Under 2,5 mål (~1,77): en avvaktande VM-öppnare, ett kompakt Sydafrika och Aztecas 2 240 meters höjd som sänker tempot pekar mot en tätare match än målmarknaden antyder.",
 
   faq: [
     {
