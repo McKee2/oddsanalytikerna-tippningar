@@ -17,6 +17,30 @@ _Varje pick graderas mot sin egen marknad (1X2 / mål över/under / handikapp / 
 inget tvingas in som 1X2. Exakt resultat redovisas separat för 1X2. Ordinarie tid i gruppspelet.
 "⏳" = ej spelad ännu, "➖" = push._
 
+## VM 2026 — djupanalyser
+
+Våra fristående djupanalysers frysta spel, ställda mot facit. Ett EGET spår med
+egen N, skilt från match-previewsen ovan — samma princip, andra artefakter.
+Beviset är filerna i [`analyses/`](analyses/); de ändras aldrig efter frysning.
+Analyser utan spelbar kant publiceras utan pick och speglas inte hit.
+
+**6 av 12 avgjorda rätt** (50%).
+
+| Analys | Marknad | När (svensk tid) | Vår tippning (pick · odds · ★confidence · frusen) | Facit | Utfall |
+| --- | --- | --- | --- | --- | --- |
+| [USA–Australien](analyses/usa-australien.ts) | Matchvinnare (1X2) | fre 19 juni 2026, 21:00 | Oavgjort @ 4,20 · ★2 · 18 juni 2026 | 2–0 (Hemmaseger) | ✗ Fel |
+| [Tjeckien–Sydafrika](analyses/tjeckien-sydafrika.ts) | Matchvinnare (1X2) | tors 18 juni 2026, 18:00 | Tjeckien @ 1,88 · ★3 · 18 juni 2026 | 1–1 (Oavgjort) | ✗ Fel |
+| [Mexiko–Sydkorea](analyses/mexiko-sydkorea.ts) | Matchvinnare (1X2) | fre 19 juni 2026, 03:00 | Oavgjort @ 3,20 · ★2 · 18 juni 2026 | 1–0 (Hemmaseger) | ✗ Fel |
+| [Frankrike – Senegal](analyses/frankrike-senegal.ts) | Mål över/under 2,5 | tis 16 juni 2026, 21:00 | Under 2,5 mål @ 1,94 · 15 juni 2026 | 4 mål → Över 2,5 | ✗ Fel |
+| [Österrike – Jordanien](analyses/osterrike-jordanien.ts) | Handikapp -1,5 | ons 17 juni 2026, 06:00 | Österrike −1,5 handikapp @ 1,86 · 15 juni 2026 | 3–1 → Österrike -1,5 = täckt | ✓ Rätt |
+| [Spanien – Kap Verde](analyses/spanien-kap-verde.ts) | Handikapp +2,5 | mån 15 juni 2026, 18:00 | Kap Verde +2,5 @ 1,93 · ★3 · 14 juni 2026 | 0–0 → Kap Verde +2,5 = täckt | ✓ Rätt |
+| [Sverige – Tunisien](analyses/sverige-tunisien.ts) | Matchvinnare (1X2) | mån 15 juni 2026, 04:00 | Sverige @ 1,90 · ★3 · 13 juni 2026 | 5–1 (Hemmaseger) | ✓ Rätt |
+| [Brasilien – Marocko](analyses/brasilien-marocko.ts) | Mål över/under 2,5 | sön 14 juni 2026, 00:00 | Under 2,5 mål · 12 juni 2026 | 2 mål → Under 2,5 | ✓ Rätt |
+| [Nederländerna – Japan](analyses/nederlanderna-japan.ts) | Mål över/under 2,5 | sön 14 juni 2026, 22:00 | Över 2,5 mål · 12 juni 2026 | 4 mål → Över 2,5 | ✓ Rätt |
+| [Tyskland – Curaçao](analyses/tyskland-curacao.ts) | Handikapp +2,5 | sön 14 juni 2026, 19:00 | Curaçao +2,5 @ 2,65 · 12 juni 2026 | 7–1 → Curaçao +2,5 = ej täckt | ✗ Fel |
+| [USA – Paraguay](analyses/usa-paraguay.ts) | Mål över/under 2,5 | lör 13 juni 2026, 03:00 | Under 2,5 mål · 11 juni 2026 | 5 mål → Över 2,5 | ✗ Fel |
+| [Qatar – Schweiz](analyses/qatar-schweiz.ts) | Mål över/under 2,5 | lör 13 juni 2026, 21:00 | Under 2,5 mål · 11 juni 2026 | 2 mål → Under 2,5 | ✓ Rätt |
+
 ## Övriga frusna tippningar
 
 Bredare prediktioner (t.ex. avancemang) som inte är enskilda matcher. Facit fylls i

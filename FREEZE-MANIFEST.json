@@ -1,0 +1,238 @@
+{
+  "version": 1,
+  "om": "Hashar av de BEVISBÄRANDE fälten per frusen artefakt (marknad, pick, linje, odds, confidence, frysstämpel, matchbindning, verdict). Prosa och ram ingår inte — de får revideras. scripts/sync-tippningar.mjs jämför mot den här filen och AVBRYTER vid drift. Ändras en rad här utan att en rättelse är avsedd har ett fryst påstående skrivits om i efterhand.",
+  "artefakter": {
+    "previews/kanada-vs-bosnien-hercegovina.ts": {
+      "hash": "sha256:12612cc3bb38b0e36c7600876012b806",
+      "falt": {
+        "slug": "kanada-vs-bosnien-hercegovina",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": 1.68,
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-09",
+        "tippning_malresultat": "1–0",
+        "verdict": [
+          "Varför inte hemmavinsten? Kanada är värdnation och favorit (~1,78), men kapten Alphonso Davies — lagets bästa spelare — är hamstring-skadad och trolig utanför premiären. På ett fullt favoritodds utan sin stjärna finns inget value i \"Kanada ML\". Det vore favoritskap, inte matematik.",
+          "Vår tippning: Under 2,5 mål. Det är en VM-premiär där båda lagens nyckelspelare är skadetvivelaktiga — Davies (hamstring) för Kanada, 40-årige Edin Džeko (axel) för Bosnien. Premiärer brukar bli avvaktande, Bosnien är defensivt lagda (0–0 mot Nordmakedonien senast, kvalet vunnet på straffar), och Kanadas målproduktion har varit ojämn. Allt pekar mot få mål.",
+          "Risk: hemmaenergin och Jonathan David kan tvinga fram ett tidigt mål, och fasta situationer (Eustáquios hörnor, Džekos längd om han spelar) är en målväg. Därför confidence 3/5."
+        ]
+      }
+    },
+    "previews/mexiko-vs-sydafrika.ts": {
+      "hash": "sha256:87e85c11753aadde99c403fec5bf15e4",
+      "falt": {
+        "slug": "mexiko-vs-sydafrika",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": 1.77,
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-08",
+        "tippning_malresultat": "1–0",
+        "verdict": null
+      }
+    },
+    "previews/tunisien-vs-sverige.ts": {
+      "hash": "sha256:00f596135910540cabce0012f6ca16b8",
+      "falt": {
+        "slug": "tunisien-vs-sverige",
+        "market": "1X2",
+        "pick": "Sverige",
+        "line": null,
+        "odds": null,
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-07",
+        "tippning_malresultat": "2–1",
+        "verdict": null
+      }
+    },
+    "predictions/gar-sverige-vidare.ts": {
+      "hash": "sha256:3a3081081687aef540c15eff66a1a6e2",
+      "falt": {
+        "slug": "gar-sverige-vidare",
+        "fraga": "Går Sverige vidare från gruppspelet?",
+        "tippning": "Ja — Sverige vidare",
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-05"
+      }
+    },
+    "analyses/usa-australien.ts": {
+      "hash": "sha256:3dbeb39dd962cf8640412c8ef1273875",
+      "falt": {
+        "slug": "usa-australien",
+        "match_slug": "usa-vs-australien",
+        "market": "1X2",
+        "pick": "Oavgjort",
+        "line": null,
+        "odds": "4,20",
+        "confidence": 2,
+        "tippning_frusen_at": "2026-06-18"
+      }
+    },
+    "analyses/tjeckien-sydafrika.ts": {
+      "hash": "sha256:d400f52615cc14c46eba4c136b93beec",
+      "falt": {
+        "slug": "tjeckien-sydafrika",
+        "match_slug": "sydafrika-vs-tjeckien",
+        "market": "1X2",
+        "pick": "Tjeckien",
+        "line": null,
+        "odds": "1,88",
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-18"
+      }
+    },
+    "analyses/mexiko-sydkorea.ts": {
+      "hash": "sha256:40bb4469c3546441225182955ceada88",
+      "falt": {
+        "slug": "mexiko-sydkorea",
+        "match_slug": "mexiko-vs-sydkorea",
+        "market": "1X2",
+        "pick": "Oavgjort",
+        "line": null,
+        "odds": "3,20",
+        "confidence": 2,
+        "tippning_frusen_at": "2026-06-18"
+      }
+    },
+    "analyses/frankrike-senegal.ts": {
+      "hash": "sha256:0156765d6a78a16e4f6b2c9848b903dd",
+      "falt": {
+        "slug": "frankrike-senegal",
+        "match_slug": "frankrike-vs-senegal",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": "1,94",
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-15"
+      }
+    },
+    "analyses/osterrike-jordanien.ts": {
+      "hash": "sha256:6e031958fa129a172df15208b0bb8a07",
+      "falt": {
+        "slug": "osterrike-jordanien",
+        "match_slug": "jordanien-vs-osterrike",
+        "market": "handicap",
+        "pick": "Österrike −1,5 handikapp",
+        "line": -1.5,
+        "odds": "1,86",
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-15"
+      }
+    },
+    "analyses/spanien-kap-verde.ts": {
+      "hash": "sha256:013020fe50eceb579072a7bc2ea5a0dd",
+      "falt": {
+        "slug": "spanien-kap-verde",
+        "match_slug": "spanien-vs-kap-verde",
+        "market": "handicap",
+        "pick": "Kap Verde +2,5",
+        "line": 2.5,
+        "odds": "1,93",
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-14"
+      }
+    },
+    "analyses/sverige-tunisien.ts": {
+      "hash": "sha256:70e98cbcf3137d79492c6f419f9fd310",
+      "falt": {
+        "slug": "sverige-tunisien",
+        "match_slug": "tunisien-vs-sverige",
+        "market": "1X2",
+        "pick": "Sverige",
+        "line": null,
+        "odds": "1,90",
+        "confidence": 3,
+        "tippning_frusen_at": "2026-06-13"
+      }
+    },
+    "analyses/brasilien-marocko.ts": {
+      "hash": "sha256:0ec465824d49ce4dc74159fd9b251ffb",
+      "falt": {
+        "slug": "brasilien-marocko",
+        "match_slug": "brasilien-vs-marocko",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": null,
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-12"
+      }
+    },
+    "analyses/nederlanderna-japan.ts": {
+      "hash": "sha256:cf3e83c0095c9c6565ee54848b11f056",
+      "falt": {
+        "slug": "nederlanderna-japan",
+        "match_slug": "nederlanderna-vs-japan",
+        "market": "totals",
+        "pick": "Över 2,5 mål",
+        "line": 2.5,
+        "odds": null,
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-12"
+      }
+    },
+    "analyses/tyskland-curacao.ts": {
+      "hash": "sha256:3b5d35e6705fe7c30d1400e80cee1155",
+      "falt": {
+        "slug": "tyskland-curacao",
+        "match_slug": "tyskland-vs-curacao",
+        "market": "handicap",
+        "pick": "Curaçao +2,5",
+        "line": 2.5,
+        "odds": "2,65",
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-12"
+      }
+    },
+    "analyses/usa-paraguay.ts": {
+      "hash": "sha256:c1467250912cd651d514c29e325fb860",
+      "falt": {
+        "slug": "usa-paraguay",
+        "match_slug": "usa-vs-paraguay",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": null,
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-11"
+      }
+    },
+    "analyses/qatar-schweiz.ts": {
+      "hash": "sha256:18e9b85387b7f6acf293ce56fcf3b0eb",
+      "falt": {
+        "slug": "qatar-schweiz",
+        "match_slug": "schweiz-vs-qatar",
+        "market": "totals",
+        "pick": "Under 2,5 mål",
+        "line": 2.5,
+        "odds": null,
+        "confidence": null,
+        "tippning_frusen_at": "2026-06-11"
+      }
+    },
+    "premierleague/prognos-2026-27.ts": {
+      "hash": "sha256:457fa242afa91e8e0b278420aa784c9f",
+      "falt": {
+        "picks": {
+          "mastare": "manchester-city",
+          "topp4": [
+            "manchester-city",
+            "liverpool",
+            "arsenal",
+            "aston-villa"
+          ],
+          "nedflyttning": [
+            "coventry",
+            "ipswich-town",
+            "hull-city"
+          ]
+        },
+        "tippning_frusen_at": "2026-07-17"
+      }
+    }
+  }
+}

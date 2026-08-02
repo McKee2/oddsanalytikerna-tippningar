@@ -13,7 +13,18 @@
  * (oförändrad) i ett EGET facit-block (AnalysisFacitSection) på /slutspel —
  * separat track med egen N, INTE unifierad med preview-facit. Det manuella
  * facit-fältet finns kvar som VALFRI override (t.ex. void/inställd match).
- * RÖR inte sync-tippningar.mjs: analyserna speglas INTE till det publika frys-repot.
+ * SPEGLING: scripts/sync-tippningar.mjs speglar analyser med FRYST pick
+ * (pick.tippning_frusen_at satt) byte-för-byte till det publika frys-repots
+ * analyses/-mapp, och skriver en LEDGER-sektion som ställer varje pick mot facit
+ * med samma gradeAnalysis() som /slutspel. Pick-lösa analyser speglas ALDRIG —
+ * de gör inget påstående. Tidigare skedde detta för hand ("Frys:"-commits); den
+ * vägen är ersatt, inte kompletterad.
+ *
+ * 🔴 De frysta fälten (pick, market, line, odds, confidence, tippning_frusen_at,
+ * match_slug) omfattas av driftguarden i FREEZE-MANIFEST.json: ändras något av
+ * dem efter frysning AVBRYTS synken. Prosa och ram får revideras. `facit` är
+ * medvetet UTANFÖR guarden — det fylls i efter matchen, se BEVISGRÄNSEN i
+ * sync-tippningar.mjs.
  *
  * Lägg till en ny analys: skapa {slug}.ts här + registrera i index.ts. Route
  * /vm-2026/analys/{slug} och hubben plockar upp den automatiskt.
