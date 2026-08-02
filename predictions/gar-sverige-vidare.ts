@@ -17,6 +17,11 @@ export const garSverigeVidare: AdvancementPrediction = {
   tippning: "Ja — Sverige vidare",
   confidence: 3,
   tippning_frusen_at: "2026-06-05",
+  /* Utfall — fyllt i EFTER att frågan avgjorts, aldrig hashat av driftguarden
+     (se BEVISGRÄNSEN i scripts/sync-tippningar.mjs). De frusna fälten ovan är
+     oförändrade. */
+  facit:
+    "Ja. Sverige slutade trea i Grupp F och tog en av de åtta platserna för bästa grupptreor — Elanga kvitterade mot Japan i 62:a minuten och säkrade avancemanget. Slutspel: sextondelsfinal mot Frankrike 30 juni.",
   modified_at: "2026-06-06",
   published_at: "2026-06-05",
 };

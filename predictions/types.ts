@@ -28,6 +28,21 @@ export interface AdvancementPrediction {
   confidence: Confidence;
   /** ISO-datum då tippningen frystes. Visas som "frusen {datum}". */
   tippning_frusen_at: string;
+  /**
+   * Utfallet, i klartext — t.ex. "Ja. Sverige gick vidare … (sextondelsfinal
+   * 30 juni)". Fylls i MANUELLT när frågan avgjorts; det finns ingen
+   * automatisk avläsning för bredare prediktioner (till skillnad från
+   * matchtippningar, som graderas mot tournament_matches).
+   *
+   * 🔴 OHASHAT av driftguarden, samma bevisgräns som previews `pick.facit`:
+   *    Hashat  = det som påstods FÖRE händelsen.
+   *    Ohashat = det som fyllts i EFTER, om det som påstods.
+   * Att hasha det gör varje legitim efterhandsnotering till ett larm. Se
+   * BEVISGRÄNSEN i scripts/sync-tippningar.mjs.
+   *
+   * Saknas → LEDGER.md skriver "Ej avgjort ännu".
+   */
+  facit?: string;
   /** ISO-datum: sidan får revideras (t.ex. trupp-fix) även om tippningen är frusen. */
   modified_at?: string;
   /** ISO-datum för publicering. */

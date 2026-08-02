@@ -44,11 +44,12 @@ Analyser utan spelbar kant publiceras utan pick och speglas inte hit.
 ## Övriga frusna tippningar
 
 Bredare prediktioner (t.ex. avancemang) som inte är enskilda matcher. Facit fylls i
-när frågan avgjorts — ingen automatisk avläsning.
+manuellt när frågan avgjorts — det finns ingen automatisk avläsning för den här
+artefakttypen, till skillnad från matchtippningarna ovan.
 
 | Fråga | Vår tippning (svar · ★confidence · frusen) | Facit |
 | --- | --- | --- |
-| [Går Sverige vidare från gruppspelet?](predictions/gar-sverige-vidare.ts) | Ja — Sverige vidare · ★3 · 5 juni 2026 | Ej avgjort ännu |
+| [Går Sverige vidare från gruppspelet?](predictions/gar-sverige-vidare.ts) | Ja — Sverige vidare · ★3 · 5 juni 2026 | Ja. Sverige slutade trea i Grupp F och tog en av de åtta platserna för bästa grupptreor — Elanga kvitterade mot Japan i 62:a minuten och säkrade avancemanget. Slutspel: sextondelsfinal mot Frankrike 30 juni. |
 
 ## Premier League 2026/27 — sluttabell-prognos
 
