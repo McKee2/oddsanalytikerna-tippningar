@@ -72,22 +72,25 @@ export const kanadaVsBosnienHercegovina: MatchPreview = {
   spelvarde:
     "DB-favoriten \"Kanada ML\" (~1,78, ca 56% implicit) lockar — men utan Davies, mot ett rutinerat Bosnien, finns ingen edge i att backa hemmavinsten. Det vore favoritskap, inte matematik. Under 2,5 mål @ 1,68 (~60% implicit) fångar den avvaktande premiär-profilen och båda talangernas skadeläge bättre. Value, inte favoritskap.",
 
+  // 🔴 FAQ = RAM, inte bevisvärde (se types.ts). Inramade i efterhand: picken
+  // står kvar ordagrant men daterar sig själv och följs av facit. verdict[],
+  // spelvarde och de frysta fälten är OFÖRÄNDRADE — de är analysen.
   faq: [
     {
-      q: "När och var spelas Kanada–Bosnien?",
-      a: "Fredag 12 juni 2026, 21:00 svensk tid, på BMO Field i Toronto — Kanadas historiska VM-premiär som värdnation.",
+      q: "När och var spelades Kanada–Bosnien?",
+      a: "Fredag 12 juni 2026, 21:00 svensk tid, på BMO Field i Toronto — Kanadas historiska VM-premiär som värdnation. Matchen slutade 1–1.",
     },
     {
-      q: "Vilken kanal sänder matchen i Sverige?",
+      q: "Vilken kanal sände matchen i Sverige?",
       a: "SVT1 och SVT Play, med studiosändning från 20:00 och avspark 21:00.",
     },
     {
-      q: "Spelar Alphonso Davies?",
-      a: "Trolig utanför premiären med en hamstringskada; Kanada väntas ha honom tillbaka senare i gruppspelet.",
+      q: "Spelade Alphonso Davies?",
+      a: "Inför matchen var han trolig utanför premiären med en hamstringskada, och Kanada väntades ha honom tillbaka senare i gruppspelet.",
     },
     {
-      q: "Vad är Oddsanalytikernas tippning?",
-      a: "Under 2,5 mål @ 1,68 (confidence 3/5). Vi tar inte hemmavinsten — utan Davies finns inget value på favoritoddset.",
+      q: "Vad var Oddsanalytikernas tippning?",
+      a: "Inför matchen tippade vi Under 2,5 mål @ 1,68 (confidence 3/5). Vi tog inte hemmavinsten — utan Davies fanns inget value på favoritoddset. Facit: 1–1, alltså två mål. Tippningen gick in.",
     },
   ],
 

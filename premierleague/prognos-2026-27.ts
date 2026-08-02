@@ -140,7 +140,7 @@ export const PL_PROGNOS: PLPrognos = {
       "Marknadens tydligaste nedflyttningsfavorit (3/10). Klivet upp ser helt enkelt för stort ut.",
   },
   tippning_frusen_at: "2026-07-17", // Fryst (publik prognos, ändras aldrig i efterhand).
-  verification_url: null, // Sätts till freeze-repo-commit-URL efter publik push/mirror (Elias).
+  verification_url: "https://github.com/McKee2/oddsanalytikerna-tippningar/commit/3ee13077b202a633816c4b4618c4325c2fe8f7d2", // Freeze-commit i publika repot (fryst 2026-07-17).
 };
 
 /* ── Bygg-tids-validering — kör vid modul-load (build/SSR) och failar högt.

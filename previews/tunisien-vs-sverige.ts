@@ -67,22 +67,27 @@ export const tunisienVsSverige: MatchPreview = {
   spelvarde:
     "Den raka svenska segern är snarare rätt prissatt än ett fynd — Tunisien är stabilare och Sverige skörare bak än 1.90 antyder. Mer intressant analytiskt är att ett disciplinerat Tunisien plus ett läckande svenskt försvar pekar mot en tätare, mer poängdelad match än oddsen signalerar; målmarknader och \"Tunisien gör mål\" är värda en närmare titt.",
 
+  // 🔴 FAQ = RAM, inte bevisvärde (se types.ts). Svaren återgav picken i presens
+  // och gick ut i FAQPage-schemat — samma väg som läckte på 21 matchsidor.
+  // Inramade: picken står kvar ordagrant, men daterar sig själv och följs av
+  // facit. Frysta fält (market/pick/confidence/frysdatum) är OFÖRÄNDRADE, och
+  // spelvarde/prediktion_utvecklad rörs inte — de är analysen.
   faq: [
     {
-      q: "Vem vinner Sverige–Tunisien?",
-      a: "Vi tippar en svensk seger, 2–1, men med medel-confidence — Tunisien släppte inte in ett enda mål i kvalet och är svårforcerade.",
+      q: "Vem vann Sverige–Tunisien?",
+      a: "Sverige, med 5–1. Inför matchen tippade vi en svensk seger, 2–1, men med medel-confidence — Tunisien släppte inte in ett enda mål i kvalet och var svårforcerade. Tippningen gick in, med bredare marginal än vi räknade med.",
     },
     {
-      q: "Vilken kanal visar Sverige–Tunisien?",
-      a: "Matchen sänds på SVT (linjärt och SVT Play).",
+      q: "Vilken kanal visade Sverige–Tunisien?",
+      a: "Matchen sändes på SVT (linjärt och SVT Play).",
     },
     {
-      q: "När är avspark i svensk tid?",
+      q: "När spelades matchen i svensk tid?",
       a: "Måndag 15 juni 2026, 04:00 svensk tid, på Estadio BBVA i Monterrey, Mexiko.",
     },
     {
-      q: "Vad är oddset på Sverige–Tunisien?",
-      a: "Sverige är favorit runt 1.90, mot oavgjort kring 3.30 och Tunisien kring 4.00. Vi nämner odds analytiskt och länkar inte till spelbolag.",
+      q: "Vad var oddset på Sverige–Tunisien?",
+      a: "Inför avspark var Sverige favorit runt 1.90, mot oavgjort kring 3.30 och Tunisien kring 4.00. Vi nämner odds analytiskt och länkar inte till spelbolag.",
     },
   ],
 

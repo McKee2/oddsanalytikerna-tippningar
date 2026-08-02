@@ -68,18 +68,21 @@ export const mexikoVsSydafrika: MatchPreview = {
   spelvarde:
     "Den raka Mexiko-segern är rätt prissatt (~1,45) — favoritskapet är korrekt, men där finns inget value. Vårt spel ligger i stället på Under 2,5 mål (~1,77): en avvaktande VM-öppnare, ett kompakt Sydafrika och Aztecas 2 240 meters höjd som sänker tempot pekar mot en tätare match än målmarknaden antyder.",
 
+  // 🔴 FAQ = RAM, inte bevisvärde (se types.ts). Inramade i efterhand: picken
+  // står kvar ordagrant men daterar sig själv och följs av facit. Frysta fält
+  // och spelvarde/prediktion_utvecklad är OFÖRÄNDRADE — de är analysen.
   faq: [
     {
-      q: "Vinner Mexiko mot Sydafrika?",
-      a: "Troligen — men oddset (~1,45) ger inget värde, därför spelar vi inte den raka segern.",
+      q: "Vann Mexiko mot Sydafrika?",
+      a: "Ja, 2–0. Inför matchen bedömde vi segern som trolig men rätt prissatt (~1,45), och tippade därför inte den raka segern utan Under 2,5 mål — som också gick in.",
     },
     {
-      q: "Vilken chans har Sydafrika?",
-      a: "Liten (~10%), men inbördes är det jämnt (1–1 i VM 2010). Räkna inte ut dem.",
+      q: "Vilken chans hade Sydafrika?",
+      a: "Liten (~10%) enligt vår bedömning inför matchen, även om inbördes var jämnt (1–1 i VM 2010). Det höll: Mexiko vann 2–0.",
     },
     {
-      q: "Vad är risken med Under 2,5?",
-      a: "Mexikos anfallskvalitet — ett tidigt mål kan öppna matchen. Därav tilltro 3 av 5.",
+      q: "Vad var risken med Under 2,5?",
+      a: "Mexikos anfallskvalitet — ett tidigt mål kunde öppna matchen, därav tilltro 3 av 5. Risken slog inte in: 2–0 är två mål, alltså under 2,5.",
     },
   ],
 
