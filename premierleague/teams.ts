@@ -7,8 +7,8 @@
  *   • /premierleague/lag/[slug] (getStaticPaths genererar BARA lag med `profile`)
  *   • SENARE: tabell-prickar i StandingsTable (primary/secondaryColor) + fler profiler.
  *
- * 11 av 20 lag har en full profil → bara de sidorna byggs (inga tunna
- * tomsidor). Övriga lag = bara meta (namn + klubbfärger).
+ * Alla 20 lag har en full profil → alla 20 sidor byggs. Fältet är fortfarande
+ * valfritt: saknas `profile` genereras ingen sida (inga tunna tomsidor).
  *
  * Färgerna är klubbarnas primär/sekundärfärg (ingen crest används någonstans —
  * lag-identitet sker via namn + färg-accent).
@@ -102,7 +102,7 @@ export interface PLTeam {
 
 /* ────────────────────────────────────────────────────────────────────────
    PL 2026/27 — 20 lag, alfabetisk ordning (på slug).
-   11 av 20 lag har en full profil (resten = bara meta).
+   Alla 20 har en full profil (fältet är dock fortsatt valfritt).
    ──────────────────────────────────────────────────────────────────────── */
 export const PL_TEAMS: PLTeam[] = [
   {
