@@ -126,7 +126,6 @@ export const brasilienMarocko: MatchAnalysis = {
   related: [
     { label: "Grupp C — ställning & lag →", href: "/vm-2026/grupper/grupp-c" },
     { label: "Alla VM-matcher →", href: "/vm-2026/matcher" },
-    { label: "VM-tips →", href: "/vm-2026/tips" },
     { label: "Fler djupanalyser →", href: "/vm-2026/analys" },
   ],
 

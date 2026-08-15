@@ -136,7 +136,27 @@ export interface MatchAnalysis {
   body: AnalysisBlock[];
   /** Sammanfattnings-tabell — valfri. */
   sammanfattning?: { rubrik?: string; rader: SummaryRow[] };
-  /** Relaterade interna länkar — valfria. */
+  /**
+   * Relaterade interna länkar — valfria.
+   *
+   * 🔴 LÄNKA ALDRIG TILL /vm-2026/tips. Den sidan pensionerades 17 juni 2026 när
+   * VM gjordes affiliate-fritt, och dess redirect landar på /speltips — dagens
+   * allmänna speltips, alltså inte VM-innehåll. En läsare som klickade
+   * "VM-tips →" i en VM-analys hamnade fel.
+   *
+   * Raden togs bort ur fem poster 2026-08-15 (brasilien-marocko,
+   * england-kroatien, portugal-dr-kongo, qatar-schweiz, usa-paraguay). Den
+   * pekades medvetet INTE om: målet den skulle ha pekat på, /vm-2026/analys,
+   * fanns redan som egen länk på raden direkt under i alla fem. En ompekning
+   * hade gett två intilliggande länkar till samma mål — något ingen av de 24
+   * analysposterna någonsin haft.
+   *
+   * 🔴 EN LÄNK PER MÅL. Vill du skicka läsaren vidare till analyserna finns
+   * redan "Fler analyser →" / "Fler djupanalyser →". Redirecten
+   * /vm-2026/tips → /speltips står kvar i astro.config.mjs för externa länkar
+   * och gamla bokmärken — den ska inte bort, men den ska inte heller användas
+   * härifrån.
+   */
   related?: RelatedLink[];
   /** ISO-datum för publicering (hub-ordning, senaste överst). */
   published_at: string;

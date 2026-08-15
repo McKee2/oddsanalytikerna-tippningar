@@ -202,7 +202,6 @@ export const usaParaguay: MatchAnalysis = {
   related: [
     { label: "Grupp D — ställning & lag →", href: "/vm-2026/grupper/grupp-d" },
     { label: "Alla VM-matcher →", href: "/vm-2026/matcher" },
-    { label: "VM-tips →", href: "/vm-2026/tips" },
     { label: "Fler djupanalyser →", href: "/vm-2026/analys" },
   ],
 
