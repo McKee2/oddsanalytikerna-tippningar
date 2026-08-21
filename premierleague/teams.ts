@@ -919,22 +919,22 @@ export const PL_TEAMS: PLTeam[] = [
     fdId: 67,
     lastSeasonRank: 12,
     profile: {
-      lead: `Newcastle backade 2025/26 efter åren av framsteg. Ett år efter att ha brutit en 56-årig titeltorka med ligacupguld slutade laget bara tolva — sämst sedan ägarskiftet 2021 — i en säsong som kantades av Alexander Isak-dramat. Eddie Howe sitter dock kvar och får en sommar till att rätta till skutan.`,
+      lead: `Newcastle backade 2025/26 efter åren av framsteg. Ett år efter att ha brutit en 56-årig titeltorka med ligacupguld slutade laget bara tolva — sämst sedan ägarskiftet 2021 — i en säsong som kantades av Alexander Isak-dramat. Sommaren 2026 blev därför en brytpunkt snarare än en andra chans: Eddie Howe lämnade, tyske Matthias Jaissle tog över, och tre av lagets bärande spelare såldes i samma fönster.`,
       sections: [
         {
           heading: "Från Wembley-hjältar till tabellmitt",
           body: `Året innan förde Howe Newcastle till klubbens första stora trofé på 56 år, men 2025/26 blev ett bakslag. Tolfteplatsen kantades av poäng som tappades från ledningar och en skör hemmaform på St James' Park. Två förluster mot rivalen Sunderland blev säsongens lågvattenmärke och kostade i slutänden europaplatsen.`,
         },
         {
-          heading: "Isak-dramat och en trög ombyggnad",
-          body: `Sommaren präglades av Alexander Isak-sagan — målskytten från ligacupfinalen "lade ner verktygen" och tvingade fram en flytt till Liverpool. Jakten på en ersättare blev svår, och först sent i fönstret spenderades 119 miljoner pund på Yoane Wissa och Nick Woltemade, som båda fick en trög start. Med Bruno Guimarães skadad i två månader saknade laget ofta sin motor.`,
+          heading: "Två somrar av utförsäljning",
+          body: `Sommaren 2025 präglades av Alexander Isak-sagan — målskytten från ligacupfinalen "lade ner verktygen" och tvingade fram en flytt till Liverpool. Jakten på en ersättare blev svår, och först sent i fönstret spenderades 119 miljoner pund på Yoane Wissa och Nick Woltemade, som båda fick en trög start. Med Bruno Guimarães skadad i två månader saknade laget dessutom ofta sin motor. Ett år senare upprepades mönstret i större skala: sommaren 2026 gick Anthony Gordon till Barcelona, Sandro Tonali till Tottenham och kaptenen Guimarães själv till Arsenal — kanten, tempohållaren och lagkaptenen i ett och samma fönster. In kom 20-årige ivorianske yttern Bazoumana Touré för 42,8 miljoner pund, sommarens dyraste, och målvakten Lukas Hornicek för 26 miljoner från Braga.`,
         },
         {
           heading: "Ljuspunkten i Europa",
-          body: `Trots ligamotgången höll sig Newcastle väl framme i Champions League, med segrar mot Athletic Bilbao, PSV och Benfica och som enda engelska lag obesegrat mot mästarna PSG. Äventyret tog slut i åttondelen mot Barcelona. Saudiägarna gav Howe fortsatt förtroende, men har själva medgett att säsongen inte får upprepas.`,
+          body: `Trots ligamotgången höll sig Newcastle väl framme i Champions League, med segrar mot Athletic Bilbao, PSV och Benfica och som enda engelska lag obesegrat mot mästarna PSG. Äventyret tog slut i åttondelen mot Barcelona. Saudiägarna gav först Howe fortsatt förtroende och medgav samtidigt att säsongen inte fick upprepas — men förtroendet höll inte hela vägen. Han lämnade klubben drygt tre veckor före premiären 2026/27.`,
         },
       ],
-      outlook: `Howe får en sommar till att bygga om — målet är en stabilare ligasäsong och en återkomst till Europa.`,
+      outlook: `Matthias Jaissle ärver en trupp som tappat sin kapten, sin tempohållare och sin farligaste ytter på ett enda fönster — och ska samtidigt införa sitt eget spel i en liga han aldrig tidigare tränat i.`,
       facts: {
         founded: "1892",
         stadium: "St James' Park (~52 300)",
@@ -943,7 +943,7 @@ export const PL_TEAMS: PLTeam[] = [
         area: "Newcastle upon Tyne (North East)",
         rival: "Sunderland",
         leagueTitles: 4,
-        manager: "Eddie Howe",
+        manager: "Matthias Jaissle",
       },
       honours: [
         { label: "Engelska ligan", detail: "4 titlar (senast 1927)" },
@@ -958,12 +958,12 @@ export const PL_TEAMS: PLTeam[] = [
         { season: "2022/23", result: "4:a" },
       ],
       keyPlayers: [
-        { name: "Bruno Guimarães", role: "Mittfält & kapten", note: "Lagets motor och viktigaste spelare." },
-        { name: "Sandro Tonali", role: "Mittfält", note: "Italiensk box-to-box som styr tempot." },
-        { name: "Dan Burn", role: "Mittback", note: "Lokal hjälte; målskytt i ligacupfinalen." },
         { name: "Nick Woltemade", role: "Anfallare", note: "Tysk rekordvärvning som ska börja leverera." },
+        { name: "Yoane Wissa", role: "Anfallare", note: "Kom med Woltemade i 119-miljonersköpet 2025; ska bära anfallet med honom." },
+        { name: "Dan Burn", role: "Mittback", note: "Lokal hjälte; målskytt i ligacupfinalen." },
+        { name: "Bazoumana Touré", role: "Ytter", note: "Sommarens dyraste värvning, 42,8 miljoner pund — 20-årig ivorian." },
       ],
-      updatedAt: "2026-06-18",
+      updatedAt: "2026-08-21",
     },
   },
   {
