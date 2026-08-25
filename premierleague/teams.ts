@@ -178,7 +178,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `Spanjoren Unai Emery är hjärtat i Villas förvandling. Med en meritlista som inkluderar flera Europa League-titlar från tidigare klubbar har han format Villa till ett taktiskt disciplinerat och europeiskt slipat lag. Villa Park, en av Englands mest klassiska arenor, har under Emery blivit en fästning där storlagen får kämpa. Frågan inför 2026/27 är inte längre om Villa kan utmana toppen — utan hur länge de kan hålla sig kvar där.`,
         },
       ],
-      outlook: `Villa går in i säsongen med Champions League-fotboll och en etablerad toppstatus. Med Emery vid rodret och en trupp som blandar rutin (Martínez, Watkins) med ungdomlig kreativitet (Rogers) är målet tydligt: bekräfta att fjärdeplatsen inte var en engångshändelse. Utmaningen blir att kombinera europeiska kvällar med ligakraven — men få lag är bättre rustade för dubbla fronter under en tränare som Emery.`,
+      outlook: `Villa går in i säsongen med Champions League-fotboll och en trupp som inte längre är den som tog fjärdeplatsen. Sommaren blev en utförsäljning: Morgan Rogers gick till Chelsea för 117 miljoner pund — brittiskt transferrekord — och Youri Tielemans, Ezri Konsa och Lucas Digne lämnade också. Det är den kreativa mittfältaren, den djupa spelfördelaren, en mittback och vänsterbacken, fyra positioner i en rak linje genom laget. Ollie Watkins har dessutom sagt till klubben att han vill lämna, med Al-Hilal som uppgiven intressent, och Emiliano Martínez står utanför laget i fönstrets slutskede. Frågan är därför inte längre om fjärdeplatsen kan upprepas, utan om Emery kan bygga om under gång med europaspel parallellt. Premiären gav inget lugnande besked: 4–0 borta mot Brighton, fyra insläppta på 31 minuter och rött kort. Emery har vänt sämre lägen — men den här gången med en tunnare trupp än på flera år.`,
       facts: {
         founded: "1874",
         stadium: "Villa Park (~42 500)",
@@ -204,10 +204,10 @@ export const PL_TEAMS: PLTeam[] = [
       keyPlayers: [
         { name: "Unai Emery", role: "Manager", note: "Arkitekten bakom Villas uppgång; en av Europas mest meriterade tränare i cup-sammanhang." },
         { name: "Ollie Watkins", role: "Anfallare", note: "Lagets målfarliga referenspunkt och engelsk landslagsman." },
-        { name: "Morgan Rogers", role: "Offensiv mittfält", note: "En av Premier Leagues mest framträdande unga kreatörer." },
-        { name: "Emiliano Martínez", role: "Målvakt", note: "Världsmästare med Argentina och en av ligans bästa målvakter." },
+        { name: "John McGinn", role: "Mittfältare & klubbkapten", note: "Skotsk landslagsman, kapten sedan 2022 och kontrakterad till 2028 — den kvarvarande kontinuiteten i ett ombyggt lag." },
+        { name: "Emiliano Martínez", role: "Målvakt", note: "Världsmästare med Argentina, men utanför laget i fönstrets slutskede." },
       ],
-      updatedAt: "2026-06-25",
+      updatedAt: "2026-08-25",
     },
   },
   {
@@ -325,7 +325,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `Fabian Hürzeler blev Premier Leagues yngste permanenta tränare någonsin när han tillträdde 31 år gammal. Efter en skakig period i mitten av 2025/26, då kritikerna redan dödförklarade honom, vände han utvecklingen och belönades med ett nytt kontrakt till 2029. Facit blev en andra raka åttondeplats och kval till Conference League — Europafotboll för bara andra gången i klubbens 125-åriga historia. Att göra det trots en konstant ström av lån och försäljningar visar hur djup modellen sitter.`,
         },
       ],
-      outlook: `Brighton inleder säsongen med ett Conference League-playoff (20 och 27 augusti) ovanpå ligaspelet — en välkommen men krävande extra front. Som etablerat övre-halvan-lag är den återkommande frågan om de kan hålla kvar sina bästa spelare genom ett fönster där storklubbarna cirklar, och samtidigt ta klivet uppåt i tabellen. Med Hürzeler kvar och en igenkännbar spelidé finns förutsättningarna.`,
+      outlook: `Brighton spelar Conference League-playoff parallellt med ligastarten: 0–0 borta mot Tromsø den 20 augusti, retur på hemmaplan den 27. Tie:t är alltså oavgjort in i den sista matchen, och den välkomna extra fronten kan bli en dyr sådan. Frågan om klubben kan hålla kvar sina bästa spelare fick samtidigt sitt vanliga svar: Danny Welbeck gick till Chelsea i augusti, och in kom Promise David på lån från Union Saint-Gilloise med köpplikt. Det är modellen som gör vad den är byggd för, inte som brister. Ligastarten talade för sig själv — 4–0 hemma mot Aston Villa, fyra mål på 31 minuter.`,
       facts: {
         founded: "1901",
         stadium: "Amex Stadium (~31 800)",
@@ -348,10 +348,10 @@ export const PL_TEAMS: PLTeam[] = [
       keyPlayers: [
         { name: "Fabian Hürzeler", role: "Manager", note: "Premier Leagues yngste permanenta tränare; två raka åttondeplatser och Europakval." },
         { name: "Kaoru Mitoma", role: "Ytter", note: "Japansk landslagsspelare och lagets mest sprängfyllda kantspelare." },
-        { name: "Danny Welbeck", role: "Anfallare", note: "Rutinerad engelsk anfallare som fortsatt bär en stor del av målansvaret." },
+        { name: "Georginio Rutter", role: "Anfallare", note: "Leder anfallet sedan Welbeck lämnade; assisterade i 4–0-premiären mot Aston Villa." },
         { name: "Bart Verbruggen", role: "Målvakt", note: "Nederländsk landslagsmålvakt och lagets förstahandsval mellan stolparna." },
       ],
-      updatedAt: "2026-07-04",
+      updatedAt: "2026-08-25",
     },
   },
   {
@@ -376,7 +376,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `I Champions League blev det ett brutalt uppvaknande — PSG slog ut Chelsea med 8-2 sammanlagt i en hämnd för Klubb-VM-finalen. Efter en säsong med protester och en bottennapp i relationen till klubbledningen valde BlueCo att satsa långsiktigt: Xabi Alonso skrev på ett fyraårskontrakt och ärver en ung, talangfylld men obalanserad trupp.`,
         },
       ],
-      outlook: `Under Alonso ska Chelsea förvandla dyr potential till resultat — och ta sig tillbaka bland Europas elit.`,
+      outlook: `Under Alonso ska Chelsea förvandla dyr potential till resultat — och ta sig tillbaka bland Europas elit. Sommaren 2026 gjordes i samma skala som tidigare år, fast dyrare: Morgan Rogers kom från Aston Villa för 117 miljoner pund — mer än någon brittisk spelare kostat — på kontrakt till 2033. In kom också Danny Welbeck från Brighton och Jordan Henderson från Brentford, båda på tvåårskontrakt, vilket är ett medvetet avsteg från klubbens vana att nästan bara köpa unga. Ligastarten gav 3–2 borta mot Fulham, med mål av João Pedro, Rogers på debuten och Cole Palmer.`,
       facts: {
         founded: "1905",
         stadium: "Stamford Bridge (~40 000)",
@@ -404,8 +404,9 @@ export const PL_TEAMS: PLTeam[] = [
         { name: "Moisés Caicedo", role: "Mittfält", note: "100-miljonersvärvningen som blev en av ligans bästa." },
         { name: "Enzo Fernández", role: "Mittfält", note: "Argentinsk världsmästare i motorn." },
         { name: "João Pedro", role: "Anfallare", note: "Brassen som blev målpunkten i en tung säsong." },
+        { name: "Morgan Rogers", role: "Offensiv mittfält", note: "117 miljoner pund från Aston Villa i juli 2026 — dyrast någonsin för en brittisk spelare; gjorde mål på debuten." },
       ],
-      updatedAt: "2026-06-18",
+      updatedAt: "2026-08-25",
     },
   },
   {
