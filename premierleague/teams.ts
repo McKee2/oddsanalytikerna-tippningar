@@ -120,7 +120,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `Mikel Arteta tog över ett skadeskjutet lag 2019 och byggde metodiskt. Tre raka andraplatser följde — den oväntade jakten 2022/23, missen på upploppet 2023/24, och tio poäng bakom Liverpool 2024/25 — innan pusslet föll på plats. 2025/26 vann Arsenal äntligen Premier League igen, 22 år efter Invincibles. Samma säsong slog man Real Madrid med 5-1 sammanlagt på väg till Champions League-finalen, där PSG till slut stod i vägen. Mästare hemma, så nära i Europa.`,
         },
       ],
-      outlook: `Som regerande mästare med en förstärkt trupp är målet givet: försvara titeln och ta nästa kliv i Europa. Arteta har byggt en av kontinentens mest kompletta trupper — frågan är inte längre om Arsenal kan utmana, utan om de kan göra det till en vana.`,
+      outlook: `Som regerande mästare är målet givet: försvara titeln och ta nästa kliv i Europa. Sommaren 2026 gav tyngd åt mitten — Newcastles lagkapten Bruno Guimarães kom den 8 augusti för 75 miljoner pund, tolv dagar före premiären, och Piero Hincapiés lån gjordes permanent samtidigt som Christos Tzolis och målvakten Illan Meslier anslöt. Arteta har byggt en av kontinentens mest kompletta trupper — frågan är inte längre om Arsenal kan utmana, utan om de kan göra det till en vana.`,
       facts: {
         founded: "1886",
         stadium: "Emirates Stadium (~60 700, sedan 2006)",
@@ -155,8 +155,9 @@ export const PL_TEAMS: PLTeam[] = [
         { name: "Declan Rice", role: "Mittfältare", note: "Mittfältsmaskinen, en av klubbens dyraste värvningar." },
         { name: "David Raya", role: "Målvakt", note: "Förstemålvakt, spansk landslagsman." },
         { name: "Viktor Gyökeres", role: "Anfallare", note: "Svensk anfallare, värvad 2025 — bär Thierry Henrys legendariska nummer 14." },
+        { name: "Bruno Guimarães", role: "Mittfältare", note: "Newcastles förre lagkapten, värvad för 75 miljoner pund i augusti 2026." },
       ],
-      updatedAt: "2026-06-19",
+      updatedAt: "2026-09-12",
     },
   },
   {
@@ -523,10 +524,10 @@ export const PL_TEAMS: PLTeam[] = [
         },
         {
           heading: "Moyes andra kapitel",
-          body: `Skotten David Moyes återvände till Everton i januari 2025 för sin andra period i klubben, efter att tidigare ha lett dem under elva framgångsrika år (2002–2013, inklusive klubbens bästa Premier League-placering någonsin — fjärdeplatsen 2004/05). Hans uppdrag den här gången: stabilisera ett lag som flörtat med nedflyttning, och bygga en grund i den nya arenan. Resultatet blev trygghet snarare än lyft — men för en klubb som kämpat i åratal var stabiliteten välkommen. Inför 2026/27 väntas en aktiv sommar med förstärkningar på flera positioner.`,
+          body: `Skotten David Moyes återvände till Everton i januari 2025 för sin andra period i klubben, efter att tidigare ha lett dem under elva framgångsrika år (2002–2013, inklusive klubbens bästa Premier League-placering någonsin — fjärdeplatsen 2004/05). Hans uppdrag den här gången: stabilisera ett lag som flörtat med nedflyttning, och bygga en grund i den nya arenan. Resultatet blev trygghet snarare än lyft — men för en klubb som kämpat i åratal var stabiliteten välkommen. Sommaren 2026 blev sedan den aktiva sommar klubben behövde, på både in- och utsidan.`,
         },
       ],
-      outlook: `Med den nya arenan på plats och ett år av stabilitet bakom sig vill Everton ta nästa steg: från överlevnad till att utmana om den övre halvan. Moyes har gjort det förr — under hans första era var Everton en fast topp-7-klubb. Nyckeln blir sommarens värvningar, där kantspelare och en anfallare pekats ut som behov. Hill Dickinson Stadium, med sin branta södra läktare för 13 000 hemmasupportrar, ska bli den fästning som lyfter laget.`,
+      outlook: `Med den nya arenan på plats och ett år av stabilitet bakom sig vill Everton ta nästa steg: från överlevnad till att utmana om den övre halvan. Moyes har gjort det förr — under hans första era var Everton en fast topp-7-klubb. Sommaren 2026 gav svaret på var pengarna hamnade: Iliman Ndiaye såldes till Manchester City för 65 miljoner pund, och in på kanterna kom Brennan Johnson från Crystal Palace i ett byte där Dwight McNeil gick åt andra hållet, plus Jack Grealish på lån från just City. Hill Dickinson Stadium, med sin branta södra läktare för 13 000 hemmasupportrar, ska bli den fästning som lyfter laget.`,
       facts: {
         founded: "1878",
         stadium: "Hill Dickinson Stadium (~52 800)",
@@ -550,9 +551,10 @@ export const PL_TEAMS: PLTeam[] = [
       keyPlayers: [
         { name: "David Moyes", role: "Manager", note: "Tillbaka för sin andra era; ledde Everton till deras bästa PL-placering någonsin under första perioden." },
         { name: "Jordan Pickford", role: "Målvakt", note: "Englands förstemålvakt och lagets klippa, elva nollor 2025/26." },
-        { name: "James Tarkowski", role: "Mittback", note: "Ledargestalt i ett av ligans nedre halvas bästa försvar." },
+        { name: "James Tarkowski", role: "Mittback & lagkapten", note: "Ledargestalt i ett av ligans nedre halvas bästa försvar." },
+        { name: "Brennan Johnson", role: "Ytter", note: "Hämtad från Crystal Palace i augusti 2026 i bytet som skickade Dwight McNeil åt andra hållet." },
       ],
-      updatedAt: "2026-06-25",
+      updatedAt: "2026-09-12",
     },
   },
   {
@@ -826,7 +828,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `Erling Haaland var lagets toppskytt för fjärde året i rad med 27 ligamål (38 totalt) och vann sin tredje Golden Boot. Hans målform är garanten den nye tränaren ärver. Enzo Maresca — tidigare Guardiola-assistent och Chelsea-tränare — skrev på ett treårskontrakt, vald för att bevara klubbens possessionsidentitet.`,
         },
       ],
-      outlook: `Maresca ärver en stark men föryngrad trupp och uppdraget att återta tronen — med Haaland som målgaranti.`,
+      outlook: `Maresca ärver en stark men föryngrad trupp och uppdraget att återta tronen — med Haaland som målgaranti. Sommaren 2026 rörde truppen i båda riktningar: mittfältaren Tijjani Reijnders såldes till saudiska Al-Qadsiah efter bara ett år i klubben, och på deadline day kom Iliman Ndiaye från Everton för 65 miljoner pund.`,
       facts: {
         founded: "1880",
         stadium: "Etihad Stadium (~53 400, sedan 2003)",
@@ -851,11 +853,11 @@ export const PL_TEAMS: PLTeam[] = [
       ],
       keyPlayers: [
         { name: "Erling Haaland", role: "Anfallare", note: "Toppskytt fjärde året i rad (27 ligamål); målgaranten Maresca ärver." },
-        { name: "Rúben Dias", role: "Mittback", note: "Försvarets ledare sedan Walkers avsked." },
+        { name: "Rúben Dias", role: "Mittback & lagkapten", note: "Försvarets ledare sedan Walkers avsked; kontrakterad till 2029." },
         { name: "Phil Foden", role: "Offensiv mittfält", note: "Akademiproduktens kreativa motor i den nya eran." },
-        { name: "Tijjani Reijnders", role: "Mittfält", note: "Sommarvärvningen som klev in direkt efter De Bruyne." },
+        { name: "Iliman Ndiaye", role: "Ytter", note: "Hämtad från Everton på deadline day för 65 miljoner pund." },
       ],
-      updatedAt: "2026-06-18",
+      updatedAt: "2026-09-12",
     },
   },
   {
@@ -908,8 +910,9 @@ export const PL_TEAMS: PLTeam[] = [
         { name: "Matheus Cunha", role: "Offensiv anfallare", note: "Värvningen 2025 som adderade mål och kreativitet." },
         { name: "Kobbie Mainoo", role: "Mittfält", note: "Ung engelsk talang Carrick återinförde i startelvan." },
         { name: "Amad Diallo", role: "Ytter", note: "Ständigt hot på kanten och en av lagets ljuspunkter." },
+        { name: "Bryan Mbeumo", role: "Ytter", note: "Värvad från Brentford sommaren 2025 och målskytt redan i ligainledningen 2026/27." },
       ],
-      updatedAt: "2026-06-18",
+      updatedAt: "2026-09-12",
     },
   },
   {
@@ -1085,7 +1088,7 @@ export const PL_TEAMS: PLTeam[] = [
           body: `I Champions League — dit laget tagit sig via Europa League-guldet — blev det en tung åttondelsförlust mot Atlético Madrid, och cupäventyren tog slut tidigt. Trots eländet finns en ung, lovande kärna kvar, och klubben valde att satsa långsiktigt på De Zerbi.`,
         },
       ],
-      outlook: `Under De Zerbi ska Spurs lämna nedflyttningsstriden bakom sig och bli en stabil topphalva-klubb igen.`,
+      outlook: `Sommaren 2026 byggde De Zerbi om laget i stället för att lappa det. Kaptenen Cristian Romero såldes till Atlético Madrid i augusti och målvakten Guglielmo Vicario gick på lån till Juventus med köpoption. In kom Sandro Tonali från Newcastle för 92,5 miljoner pund plus bonusar — klubbrekord — tillsammans med Mateus Fernandes och Jan Paul van Hecke, samt Andy Robertson och Marcos Senesi på fria transfers. Micky van de Ven bär bindeln. Uppdraget är detsamma som före ombyggnaden: lämna nedflyttningsstriden bakom sig och bli en stabil topphalva-klubb igen.`,
       facts: {
         founded: "1882",
         stadium: "Tottenham Hotspur Stadium (~62 850, sedan 2019)",
@@ -1109,12 +1112,12 @@ export const PL_TEAMS: PLTeam[] = [
         { season: "2022/23", result: "8:a" },
       ],
       keyPlayers: [
-        { name: "Cristian Romero", role: "Mittback & kapten", note: "Argentinsk världsmästare och defensiv ledare." },
-        { name: "Micky van de Ven", role: "Mittback", note: "Snabbheten i försvaret; gjorde det räddande målet sista dagen." },
-        { name: "Guglielmo Vicario", role: "Målvakt", note: "Italiensk sista utpost." },
-        { name: "Brennan Johnson", role: "Ytter", note: "Walesisk kantspelare och ett av lagets få ljus." },
+        { name: "Micky van de Ven", role: "Mittback & kapten", note: "Ny lagkapten inför 2026/27 sedan Romero sålts; gjorde det räddande målet sista dagen förra säsongen." },
+        { name: "Sandro Tonali", role: "Mittfältare", note: "Klubbrekordvärvning från Newcastle sommaren 2026 — 92,5 miljoner pund plus bonusar." },
+        { name: "James Maddison", role: "Offensiv mittfältare", note: "Lagets tia och fjärde man i De Zerbis kaptensgrupp." },
+        { name: "Pedro Porro", role: "Högerback", note: "Spansk ytterback och vicekapten." },
       ],
-      updatedAt: "2026-06-18",
+      updatedAt: "2026-09-12",
     },
   },
 ];
