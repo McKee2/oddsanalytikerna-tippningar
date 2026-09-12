@@ -151,7 +151,7 @@ export const PL_TEAMS: PLTeam[] = [
       keyPlayers: [
         { name: "Martin Ødegaard", role: "Mittfältare", note: "Kapten och kreativ motor, norsk landslagskapten." },
         { name: "Bukayo Saka", role: "Ytter", note: "Klubbens talisman, en av Premier Leagues mest värdefulla spelare." },
-        { name: "William Saliba", role: "Mittback", note: "Försvarsklippan, fransk landslagsman." },
+        { name: "William Saliba", role: "Mittback", note: "Försvarsklippan, fransk landslagsman — men borta på obestämd tid med en ryggskada sedan i somras, utan besked om återkomst." },
         { name: "Declan Rice", role: "Mittfältare", note: "Mittfältsmaskinen, en av klubbens dyraste värvningar." },
         { name: "David Raya", role: "Målvakt", note: "Förstemålvakt, spansk landslagsman." },
         { name: "Viktor Gyökeres", role: "Anfallare", note: "Svensk anfallare, värvad 2025 — bär Thierry Henrys legendariska nummer 14." },
